@@ -14,6 +14,7 @@ import { RevealWrapper } from "next-reveal";
 
 const Page = () => {
   return (
+    
     <>
       <Center m={5}>
         <Box width="80vw" height="100%">
@@ -43,14 +44,14 @@ const Page = () => {
                 </Heading>
                 <br />
                 <Text>
-                  I&apos;m <span className="name">Vaheed</span>, a passionate
-                  software developer. I specialize in{" "}
+                  I&apos;m <span className="name">Maira</span>, a dedicated
+                  software developer. My focus is on{" "}
                   <span className="tech">Web Development</span>, crafting
-                  seamless user experiences and robust backend solutions. With a
+                  creating smooth user interfaces and robust software solutions. With a
                   knack for problem-solving, I thrive on creating elegant code
-                  that makes an impact. I&apos;m always exploring new tools and
-                  techniques to stay at the forefront of the ever-evolving tech
-                  landscape.
+                  that makes an impact. I excel in troubleshooting and take pride in producing elegant code that delivers meaningful results.
+                   I'm continually exploring fresh tools and methodologies to remain at the forefront of the ever-changing technology landscape.
+                  
                 </Text>
                 <br />
                 <Text>

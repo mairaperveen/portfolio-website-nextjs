@@ -10,6 +10,7 @@ import {
   FaInstagram,
   FaLinkedin,
   FaTwitter,
+  FaMediumM,
 } from "react-icons/fa";
 
 import {
@@ -18,6 +19,8 @@ import {
   TbBrandCpp,
   TbBrandRedux,
   TbBrandBootstrap,
+  TbBrandTailwind,
+  TbBellBolt,
 } from "react-icons/tb";
 import { BiLogoJquery, BiLogoPostgresql } from "react-icons/bi";
 import {
@@ -26,9 +29,12 @@ import {
   SiPostman,
   SiGnubash,
   SiNextdotjs,
+  SiSelenium,
+  SiJest,
+  SiKubernetes,
 } from "react-icons/si";
 import { AiFillCode } from "react-icons/ai";
-import { FaHashnode } from "react-icons/fa6";
+import { FaHashnode, FaStackOverflow } from "react-icons/fa6";
 import {
   BsGlobe,
   BsCodeSlash,
@@ -36,9 +42,10 @@ import {
   BsFileBarGraph,
   BsGit,
   BsMarkdown,
+  BsTerminalDash,
 } from "react-icons/bs";
 import { GiArchiveResearch, GiArtificialIntelligence } from "react-icons/gi";
-import { FcElectronics } from "react-icons/fc";
+import { FcElectronics, FcWebcam } from "react-icons/fc";
 
 export const links = [
   { text: "Home", path: "/" },
@@ -46,7 +53,6 @@ export const links = [
   { text: "Skills", path: "/skills" },
   { text: "Projects", path: "/projects" },
   { text: "Experience", path: "/experience" },
-  { text: "Blogs", path: "/blogs" },
   { text: "Contact", path: "/contact" },
 ];
 
@@ -56,12 +62,20 @@ export const interestsData = [
     icon: BsCodeSlash,
   },
   {
+    interest: "Software Development",
+    icon: AiFillCode,
+  },
+  {
+    interest: "Testing",
+    icon: BsTerminalDash,
+  },
+  {
     interest: "Tech Blog",
     icon: FaHashnode,
   },
   {
-    interest: "Internet of Things",
-    icon: FcElectronics,
+    interest: "Web Design",
+    icon: FcWebcam,
   },
   {
     interest: "Market Research",
@@ -71,16 +85,9 @@ export const interestsData = [
     interest: "Visualization",
     icon: BsFileBarGraph,
   },
+  
   {
-    interest: "Software Development",
-    icon: AiFillCode,
-  },
-  {
-    interest: "Robotics",
-    icon: BsRobot,
-  },
-  {
-    interest: "Web Scraping",
+    interest: "Search Engine Optimization",
     icon: BsGlobe,
   },
 ];
@@ -99,28 +106,8 @@ export const skillsData = [
     icon: TbBrandJavascript,
   },
   {
-    name: "Jquery",
-    icon: BiLogoJquery,
-  },
-  {
     name: "Typescript",
     icon: TbBrandTypescript,
-  },
-  {
-    name: "SASS",
-    icon: FaSass,
-  },
-  {
-    name: "Bootstrap",
-    icon: TbBrandBootstrap,
-  },
-  {
-    name: "C/C++",
-    icon: TbBrandCpp,
-  },
-  {
-    name: "Python",
-    icon: FaPython,
   },
   {
     name: "ReactJS",
@@ -139,21 +126,36 @@ export const skillsData = [
     icon: FaNodeJs,
   },
   {
-    name: "PugJs",
-    icon: SiPug,
+    name: "Jquery",
+    icon: BiLogoJquery,
   },
+  {
+    name: "SASS",
+    icon: FaSass,
+  },
+  {
+    name: "Bootstrap",
+    icon: TbBrandBootstrap,
+  },
+  {
+    name: "Tailwind CSS",
+    icon: TbBrandTailwind,
+  },
+
+  {
+    name: "Agile Method",
+    icon: TbBellBolt,
+  },
+  
   {
     name: "Express",
     icon: SiExpress,
   },
   {
-    name: "Docker",
-    icon: FaDocker,
+    name: "Kubernetes",
+    icon: SiKubernetes,
   },
-  {
-    name: "Postgres",
-    icon: BiLogoPostgresql,
-  },
+
   {
     name: "Postman",
     icon: SiPostman,
@@ -175,146 +177,167 @@ export const skillsData = [
     icon: SiGnubash,
   },
   {
-    name: "Markdown",
-    icon: BsMarkdown,
+    name: "Selinium",
+    icon: SiSelenium,
   },
+  {
+    name: "Jest",
+    icon: SiJest,
+  }
+  
 ];
 
 export const workData = [
+  
+
   {
-    company: "1Digitalstack.ai",
-    designation: "Software Engineer 1",
-    duration: "March 2022 - Present",
+    company: "NX3 Corporation",
+    designation: "React JS Developer",
+    duration: "May 2022 - Nov 2022",
     companyImg: "1ds.jpg",
     description: (
       <>
-        <ul>
-          <li>
-            I work on Reviniti, an analytics product designed for e-commerce
-            players in the bid management domain. Solely migrated the old
-            codebase from a templating engine (PugJS) to React with TypeScript.
-          </li>
-          <li>
-            Engaged in developing new features, refactoring code, enhancing
-            product performance, bug fixes and contributing towards achieving
-            high scalability for the product.
-          </li>
+        <ul> 
+        <li>Front-end development using React JS to create engaging web applications with emerging and updated technologies</li>
+          <li>Implementing new features and functionalities based on design specifications.</li>
+          <li>Optimizing code for performance and efficiency.</li>
+          <li>Troubleshooting and resolving bugs to ensure a seamless user experience.</li>
+          <li>Implementing new features and functionalities based on design specifications.</li>
         </ul>
       </>
     ),
-  },
-  {
-    company: "Fact.MR",
-    designation: "Associate Consultant Level 01",
-    duration: "Dec 2020 - July 2021",
-    companyImg: "fmr.svg",
+  }, {
+    company: "Systems Limited",
+    designation: "Software Engineer",
+    duration: "Oct 2021 - Apr 2022",
+    companyImg: "fmr.jpg",
     description: (
       <>
-        <ul>
-          <li>
-            Engaged in creating comprehensive client-specific and syndicated
-            research reports, along with SEO-focused articles and collateral
-            materials within the domains of chemicals, materials, consumer
-            goods, and industrial goods.
-          </li>
-          <li>
-            Expertly estimated market valuations and conducted primary research
-            in collaboration with industry experts to validate data, extract
-            valuable market insights.
-          </li>
+        <ul> 
+        <li>Software development, coding, and programming and integrating new features into existing software products </li>
+          <li>Fixing bugs and ensuring software quality and analyzing user needs and proposing effective solutions of requirements. </li>
+          <li>Creating comprehensive documentationand managing projects and adhering to timelines.</li>
+          <li>Staying updated with emerging technologies </li>
+        </ul>
+      </>
+    ),
+  }, {
+    company: "Supernet E Solutions (Pvt) Ltd",
+    designation: "Junior Software Developer",
+    duration: "Nov 2020 - Sep 2021",
+    companyImg: "dpd.jpg",
+    description: (
+      <>
+        <ul> 
+          <li>Assisting in software development and coding tasks.Supporting developers in integrating new features.</li>
+          <li>Participating in bug fixing and software testing efforts and gaining hands-on experience in analyzing user requirements.</li>
+          <li>Collaborating with the development team on projects.learning and applying best practices under guidance</li>
+          <li>Contributing to documentation,client meeting and project coordination </li>
         </ul>
       </>
     ),
   },
+
 ];
 
 export const projectsData = [
+
   {
     type: "WEB-APP",
-    title: "Weather App",
-    image: "weather-app",
-    link: "https://vaheedsk36.github.io/weather-app/",
-    source: "https://github.com/vaheedsk36/weather-app",
+    title: "Chat Application",
+    image: "chat-app",
+    link: "https://chat-application-2.netlify.app/",
+    source: "https://github.com/mairaperveen/chat-app",
+  },
+  {
+    
+    type: "WEB-APP",
+    title: "Gericht",
+    image: "gericht",
+    link: "mairaperveen.github.io/gericht/",
+    source: "https://github.com/mairaperveen/gericht",
   },
   {
     type: "WEB-APP",
-    title: "Landing Page",
+    title: "Loop Studio",
     image: "landing-page",
-    link: "https://vaheedsk36.github.io/demo-frontend-bootcamp",
-    source: "https://github.com/vaheedsk36/demo-frontend-bootcamp",
+    link: "https://mairaperveen.github.io/loopstudios/triffstudios/index.html",
+    source: "https://github.com/mairaperveen/loopstudios",
   },
   {
     type: "WEB-APP",
-    title: "Guess Game",
+    title: "GPT-3",
+    image: "gpt3",
+    link: "mairaperveen.github.io/gpt3/",
+    source: "https://github.com/mairaperveen/gpt3",
+  },
+  {
+    type: "WEB-APP",
+    title: "SyraAesthetics",
     image: "guess-game",
-    link: "https://vaheedsk36.github.io/guess-my-number",
-    source: "https://github.com/vaheedsk36/guess-my-number",
+    link: "https://mairaperveen.github.io/SyraAesthetics/SyraAesthetics1/treatments/microneedling-pep-face/index.html",
+    source: "https://github.com/mairaperveen/SyraAesthetics",
   },
   {
     type: "WEB-APP",
-    title: "Notes App",
-    image: "react-notes-app",
-    link: "https://vaheedsk36.github.io/react-notes-app/",
-    source: "https://github.com/vaheedsk36/react-notes-app",
+    title: "Youtube Clone",
+    image: "youtube clone",
+    link: "youtube-clone-maira.vercel.app/",
+    source: "https://github.com/mairaperveen/youtube-clone",
   },
+
   {
-    type: "WEB-APP",
-    title: "Dice Multiplayer",
-    image: "dice-multiplayer",
-    link: "https://vaheedsk36.github.io/dice-multiplayer",
-    source: "https://github.com/vaheedsk36/dice-multiplayer",
+    type: "PROJECT",
+    title: "Richt Spa",
+    image: "richt",
+    link: "mairaperveen.github.io/richtspa/",
+    source: "https://github.com/mairaperveen/richtspa",
   },
   {
     type: "PROJECT",
-    title: "Snake Game",
-    image: "snake-game",
-    link: "https://vaheedsk36.github.io/Snake-game",
-    source: "",
+    title: "Notion Korea",
+    image: "notion korea",
+    link: "https://mairaperveen.github.io/notion_korean/members/index.html",
+    source: "https://github.com/mairaperveen/notion_korean",
   },
   {
     type: "PROJECT",
-    title: "Delta Assistant",
-    image: "delta-assistant",
-    link: "",
-    source: "https://github.com/vaheedsk36/Delta-Desktop-Virtual-Assistant",
-  },
-  {
-    type: "WEB-APP",
-    title: "Text Utility App",
-    image: "text-utility-app",
-    link: "https://vaheedsk36.github.io/text-utility-app/",
-    source: "https://github.com/vaheedsk36/text-utility-app",
+    title: "Portfolio",
+    image: "portfolio",
+    link: "https://github.com/mairaperveen/portfolio.git",
+    source: "https://mairaperveen.github.io/portfolio/",
   },
 ];
 
 
 export const socialMediaLinks = [
   {
-    href: "https://github.com/vaheedsk36",
+    href: "https://github.com/mairaperveen",
     icon: FaGithub,
     backgroundColor: "gray.700",
     hoverColor: "gray.600",
   },
   {
-    href: "https://www.instagram.com/codersk36/",
-    icon: FaInstagram,
+    href: "https://medium.com/@maira.qadir96/",
+    icon: FaMediumM,
     backgroundColor: "social.instagram",
     hoverColor: "social.instagramHover",
+    
   },
   {
-    href: "https://www.linkedin.com/in/sk36/",
+    href: "https://www.linkedin.com/in/mairaperveen/",
     icon: FaLinkedin,
     backgroundColor: "social.linkedin",
     hoverColor: "social.linkedinHover",
   },
   {
-    href: "https://twitter.com/codersk36",
-    icon: FaTwitter,
+    href: "https://stackoverflow.com/users/22235568/maira-perveen",
+    icon: FaStackOverflow,
     backgroundColor: "social.twitter",
     hoverColor: "social.twitterHover",
   },
   {
-    href: "https://codersk36.hashnode.dev/",
+    href: "https://hashnode.com/@maira302",
     icon: FaHashnode,
     backgroundColor: "social.hashnode",
     hoverColor: "social.hashnodeHover",
