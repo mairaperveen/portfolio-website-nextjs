@@ -55,9 +55,9 @@ const Page = () => {
                 </Text>
                 <br />
                 <Text>
-                  📫 Open to collaborations and exciting projects, I&apos;m
+                  📫 Open to collaborations and exciting projects, I am
                   eager to connect with fellow developers and tech enthusiasts.
-                  Let&apos;s build something amazing together!
+                  I will build something amazing together!
                 </Text>
                 <Text>
                   Happy coding! 🖥️
