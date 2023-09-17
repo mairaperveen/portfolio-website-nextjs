@@ -311,9 +311,8 @@ export const projectsData = [
     image: "portfolio",
 
     link: "https://mairaperveen.github.io/portfolio/",
-    link: "https://github.com/mairaperveen/portfolio.git",
-    source: "https://mairaperveen.github.io/portfolio/",
->>>>>>> 6709c6839db315e6fbb9962f0f92fca2ffdab73f
+    link: "https://github.com/mairaperveen/portfolio",
+
   },
 ];
 
