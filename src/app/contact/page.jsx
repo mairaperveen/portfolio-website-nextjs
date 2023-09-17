@@ -34,15 +34,15 @@ const Contact = () => {
                   my={3}
                   _hover={{ textDecoration: "none" }}
                 >
-                  <Icon as={IoIosMail} mx={2} />
-                  <Text>vaheedsk36@gmail.com</Text>
+                  <Icon as={IoIosMail} mx={3} />
+                  <Text>maira.perveen25@gmail.com</Text>
                 </Link>
               </Tooltip>
 
               <Tooltip label="Open Map">
                   <Text className="contact-text-span" my={3} onClick={onOpen} cursor="pointer">
                     <Icon as={ImLocation} mx={2} />
-                    <span>Hyderabad, India</span>
+                    <span>Liepzig,Germany</span>
                   </Text>
               </Tooltip>
             </Stack>

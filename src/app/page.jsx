@@ -67,15 +67,14 @@ export default function Home() {
             flexDirection={["column", "column", "row"]}
           >
             <Heading fontFamily="Black Ops One" fontSize={["2.5rem", "3.7rem"]}>
-              Masood Akhtar
+              Maira 
             </Heading>
 
             <Heading
               fontFamily="Black Ops One"
               fontSize={["2.5rem", "3.7rem"]}
               ml={[null, "1rem"]}
-            >
-              Vaheed
+            > Perveen
             </Heading>
           </Flex>
           <Heading my={3} size="lg">
