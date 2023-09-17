@@ -254,11 +254,8 @@ export const projectsData = [
     type: "WEB-APP",
     title: "Gericht",
     image: "gericht",
-<<<<<<< HEAD
+
     link: "https://mairaperveen.github.io/gericht/",
-=======
-    link: "mairaperveen.github.io/gericht/",
->>>>>>> 6709c6839db315e6fbb9962f0f92fca2ffdab73f
     source: "https://github.com/mairaperveen/gericht",
   },
   {
@@ -272,11 +269,9 @@ export const projectsData = [
     type: "WEB-APP",
     title: "GPT-3",
     image: "gpt3",
-<<<<<<< HEAD
+
     link: "https://mairaperveen.github.io/gpt3/",
-=======
-    link: "mairaperveen.github.io/gpt3/",
->>>>>>> 6709c6839db315e6fbb9962f0f92fca2ffdab73f
+
     source: "https://github.com/mairaperveen/gpt3",
   },
   {
@@ -290,11 +285,8 @@ export const projectsData = [
     type: "WEB-APP",
     title: "Youtube Clone",
     image: "youtube clone",
-<<<<<<< HEAD
+
     link: "https://youtube-clone-maira.vercel.app/",
-=======
-    link: "youtube-clone-maira.vercel.app/",
->>>>>>> 6709c6839db315e6fbb9962f0f92fca2ffdab73f
     source: "https://github.com/mairaperveen/youtube-clone",
   },
 
@@ -302,11 +294,8 @@ export const projectsData = [
     type: "PROJECT",
     title: "Richt Spa",
     image: "richt",
-<<<<<<< HEAD
+
     link: "https://mairaperveen.github.io/richtspa/",
-=======
-    link: "mairaperveen.github.io/richtspa/",
->>>>>>> 6709c6839db315e6fbb9962f0f92fca2ffdab73f
     source: "https://github.com/mairaperveen/richtspa",
   },
   {
@@ -320,10 +309,8 @@ export const projectsData = [
     type: "PROJECT",
     title: "Portfolio",
     image: "portfolio",
-<<<<<<< HEAD
+
     link: "https://mairaperveen.github.io/portfolio/",
-    source: "https://github.com/mairaperveen/portfolio",
-=======
     link: "https://github.com/mairaperveen/portfolio.git",
     source: "https://mairaperveen.github.io/portfolio/",
 >>>>>>> 6709c6839db315e6fbb9962f0f92fca2ffdab73f
