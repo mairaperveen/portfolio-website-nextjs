@@ -1,12 +1,20 @@
 import { Flex, HStack, chakra } from "@chakra-ui/react";
 import { Link } from "@chakra-ui/next-js";
-import React from "react";
+import React, { useEffect } from 'react';
 import MobileHeader from "./MobileHeader";
 import { links } from "../utils/constants";
 import { usePathname } from "next/navigation";
 
 export default function Header() {
   const pathname = usePathname();
+
+  // Example useEffect
+  useEffect(() => {
+    // This code will run when the component mounts or when pathname changes.
+    console.log(`The current pathname is: ${pathname}`);
+
+    // You can perform other side effects here if needed.
+  }, [pathname]); // Add dependencies as needed
 
   return (
     <chakra.header
